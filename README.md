@@ -1,7 +1,6 @@
 # Inbound Voice Agent
 
-This project demonstrates an inbound sales agent for a realestate developer built with Retell.ai, Twilio, and OpenAI GPT-5 mini. The agent qualifies callers, creates bookings, and logs structured JSON outputs directly into Google Sheets.
-
+This project demonstrates an inbound sales agent for a realestate developer built with Retell.ai, Twilio, N8N and OpenAI GPT-5 mini. The agent qualifies callers, creates bookings, and logs structured JSON outputs directly into Google Sheets.
 ---
 
 ## Stack & LLMs
