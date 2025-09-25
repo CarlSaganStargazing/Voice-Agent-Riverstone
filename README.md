@@ -1,3 +1,9 @@
+## Walkthrough video on Loom
+
+Quick walkthrough of the design and trade-offs:  
+(https://www.loom.com/share/10a8ea3f81c54ef0af553a1b144cd91e?sid=0c18def1-2c4b-4d47-b8ea-409a3d402231)
+
+
 # Inbound Voice Agent
 
 This project demonstrates an inbound sales agent for a realestate developer built with Retell.ai, Twilio, N8N and OpenAI GPT-5 mini. The agent qualifies callers, creates bookings, and logs structured JSON outputs directly into Google Sheets.
