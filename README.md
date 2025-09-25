@@ -74,4 +74,21 @@ Assuming 5 min/call (~500 total minutes):
 - Explore open-weight models for cheaper inference.
 
 ---
+## Config Peek
+
+- [System Prompt](prompts/system-prompt.txt)  
+- [N8N Workflow Config](config/n8n-workflow.json)  
+
+### Architecture Diagram
+
+```mermaid
+flowchart TD
+    A[Caller] -->|Phone Call| B[Twilio SIP Trunk]
+    B -->|Voice Stream| C[Retell.ai]
+    C -->|STT + LLM + TTS| D[N8N Workflow]
+    C -->|Transcripts & Recordings| E[Retell Logs]
+
+    D -->|Append JSON| F[Google Sheets]
+    D -->|Create Event| G[Calendly / Mock API]
+
 
